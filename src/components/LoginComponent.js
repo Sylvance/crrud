@@ -18,7 +18,7 @@ class Login extends Component {
               <br />
               <input name="password"></input>
             </div>
-            <button>Save</button>
+            <button>Login</button>
           </form>
           <p>
             No account yet? <span><u>Register</u></span>

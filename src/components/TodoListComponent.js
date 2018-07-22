@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
 
-import TodoItem from './TodoItemComponent.js';
+import TodoListItem from './TodoListItemComponent.js';
+import TodoModal from './components/TodoModalComponent.js';
+import TodoForm from './components/TodoFormComponent.js';
+import TodoSingleItem from './components/TodoSingleItemComponent.js';
 import '../App.css';
 
 class TodoList extends Component {
   render() {
     return (
       <div className="TodoList">
-        <h2>Todos <span>list items</span></h2>
         <ul>
-          <TodoItem />
-          <TodoItem />
-          <TodoItem />
+          <TodoListItem />
+          <TodoListItem />
+          <TodoListItem />
         </ul>
+        <TodoSingleItem />
+        <TodoModal />
+        <TodoForm />
       </div>
     );
   }

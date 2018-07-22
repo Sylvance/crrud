@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import Login from './components/LoginComponent.js';
 import Register from './components/RegisterComponent.js';
-import TodoList from './components/TodoListComponent.js';
-import TodoListItem from './components/TodoListItemComponent.js';
 import './App.css';
 
 class App extends Component {
@@ -17,8 +15,6 @@ class App extends Component {
         </p>
         <Login />
         <Register />
-        <TodoList />
-        <TodoListItem />
       </div>
     );
   }
