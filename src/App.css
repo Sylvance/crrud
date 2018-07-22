@@ -80,14 +80,17 @@ div>p:nth-child(2){
 }
 p>span{
   background: #fff;
+}
+p>span, p>span>a{
+  background: #fff;
   color: #21C3C7;
   font-size: 14px;
 }
-p>span:hover{
+p>span:hover, p>span>a:hover{
   font-weight: bold;
   cursor: pointer;
 }
-p>span:nth-child(2){
+p>span:nth-child(2), p>span:nth-child(2)>a{
   color: #c74221;
 }
 
